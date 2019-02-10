@@ -127,7 +127,7 @@ sup {
 
 
 
-.process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .process2_figure_05, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B, .process2_figure_04 {
+.process2_figure_08, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .process2_figure_05, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B, .process2_figure_04 {
   border-right: .1vw solid black;
 }
 
@@ -862,7 +862,7 @@ i {
 
 
 .process2_figure_07 {
-  width: 60vw;
+  width: 65vw;
   cursor: pointer;
 }
 
@@ -873,6 +873,17 @@ i {
   width: 100%;
 }
 
+
+.process2_figure_08 {
+  width: 100vw;
+  cursor: pointer;
+}
+
+.process2_figure_08 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
 
 
 
@@ -1517,7 +1528,7 @@ i {
 
 
 .process2_I_1_figure_03 {
-  margin-top: 10vw;
+  margin-top: 0vw;
   margin-left: -3vw;
 }
 
