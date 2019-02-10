@@ -137,7 +137,7 @@ sup {
 }
 
 
-.process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
+.process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
   border-left: .1vw solid black;
 }
 
@@ -884,6 +884,21 @@ i {
   height: 100%;
   width: 100%;
 }
+
+
+.process2_figure_09 {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.process2_figure_09 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+
 
 
 
