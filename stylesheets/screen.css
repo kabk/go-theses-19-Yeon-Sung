@@ -127,7 +127,7 @@ sup {
 
 
 
-.process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B {
+.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B {
   border-right: .1vw solid black;
 }
 
@@ -137,7 +137,7 @@ sup {
 }
 
 
-.process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
+.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
   border-left: .1vw solid black;
 }
 
@@ -959,6 +959,29 @@ i {
 }
 
 .process2_figure_15 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+.process2_figure_16 {
+  width: 90vw;
+  cursor: pointer;
+}
+
+.process2_figure_16 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.process2_figure_17 {
+  width: 90vw;
+  cursor: pointer;
+}
+
+.process2_figure_17 img {
   object-fit: fill;
   height: 100%;
   width: 100%;
