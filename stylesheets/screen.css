@@ -137,7 +137,7 @@ sup {
 }
 
 
-.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
+.process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
   border-left: .1vw solid black;
 }
 
@@ -1449,6 +1449,22 @@ i {
 
 }
 
+.process2_L {
+  width: 37vw;
+  padding: 4vw 0vw 0vw 0vw;
+  height: 100vh;
+  background-color: black;
+  cursor: pointer;
+}
+
+.process2_M {
+  width: 70vw;
+  padding: 4vw 0vw 0vw 0vw;
+  height: 100vh;
+  background-color: black;
+  cursor: pointer;
+}
+
 /* ——————————————————————————————————————————————— Process2 Contents */
 
 
@@ -1657,6 +1673,32 @@ i {
   margin-right: 25vw;
 }
 
+.process2_I_1_figure_09 {
+  margin-top: -1vw;
+  margin-left: 10vw;
+}
+
+.process2_I_1_figure_10 {
+  margin-top: 5vw;
+  margin-left: 10vw;
+}
+
+
+.process2_I_1_figure_11 {
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.process2_I_1_figure_12 {
+  margin-top: 14vw;
+  margin-left: 0vw;
+}
+
+.process2_I_1_figure_13 {
+  margin-top: -1vw;
+  margin-left: 30vw;
+}
+
 .process2_J_1 {
   margin-top: 0vw;
   margin-left: 3vw;
@@ -1695,6 +1737,7 @@ i {
   -ms-hyphens: manual;
   hyphens: manual;
 }
+
 
 
 
