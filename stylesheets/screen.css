@@ -128,7 +128,7 @@ sup {
 
 
 
-.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B, .index_appendix {
+.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B, .index_bibliography {
   border-right: .1vw solid black;
 }
 
@@ -138,7 +138,7 @@ sup {
 }
 
 
-.process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04  {
+.process2_figure_15, .process2_figure_14, .process2_D, .process2_figure_11, .process2_figure_10, .process2_figure_09, .process2_figure_07, .process2_C, .date-content, .listing, .text_02, .introduction_figure_02, .introduction_B, .introduction_E, .process2_figure_04, .index_bibliography {
   border-left: .1vw solid black;
 }
 
@@ -440,7 +440,7 @@ i {
   overflow: hidden;
 }
 
-.index_introduction, .index_prcoess1, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .index_appendix{
+.index_introduction, .index_prcoess1, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .index_appendix, .index_bibliography{
   width: 5vw;
   background-color: white;
   cursor: pointer;
@@ -549,6 +549,17 @@ i {
 
 
 .index_appendix p {
+  font-size: 3vw;
+  font-family: 'NHaasGroteskTXPro-65Rg', sans-serif;
+  line-height: 5vw;
+  text-align: left;
+  min-width: 100%;
+  margin: 0;
+  padding: 3vw 0vw 0vw 0vw;
+}
+
+
+.index_bibliography p {
   font-size: 3vw;
   font-family: 'NHaasGroteskTXPro-65Rg', sans-serif;
   line-height: 5vw;
