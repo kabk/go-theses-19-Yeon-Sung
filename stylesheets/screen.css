@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 html, body, div, span, applet, object, iframe,
@@ -127,7 +128,7 @@ sup {
 
 
 
-.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B {
+.process2_figure_17, .process2_figure_15, .process2_figure_14, .process2_figure_12, .process2_figure_02, .process2_figure_03, .process2_figure_05, .process2_G, .introduction_figure_00, .index, .index_Abstract, .index_A, .index_title, .index_introduction, .index_process_a, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .header, .date-content, .text_02, .listing, .part li .figure_01, .figure_02, .invites-wrap, .wordscredits, .abstract_A, .introduction_A, .introduction_C, .introduction_E, .introduction_figure_02, .introduction_figure_03, .introduction_figure_04, .header_2, .process2_B, .index_appendix {
   border-right: .1vw solid black;
 }
 
@@ -191,6 +192,9 @@ sup {
   background-color: yellow;
 }
 
+.index_appendix:hover {
+  background-color: yellow;
+}
 
 
 .part li.selected {
@@ -436,7 +440,7 @@ i {
   overflow: hidden;
 }
 
-.index_introduction, .index_prcoess1, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6{
+.index_introduction, .index_prcoess1, .index_process2, .index_process3, .index_process4, .index_process5, .index_process6, .index_appendix{
   width: 5vw;
   background-color: white;
   cursor: pointer;
@@ -541,6 +545,17 @@ i {
   min-width: 100%;
   margin: 0;
   padding: 40vw 0vw 0vw 0vw;
+}
+
+
+.index_appendix p {
+  font-size: 3vw;
+  font-family: 'NHaasGroteskTXPro-65Rg', sans-serif;
+  line-height: 5vw;
+  text-align: left;
+  min-width: 100%;
+  margin: 0;
+  padding: 3vw 0vw 0vw 0vw;
 }
 
 
@@ -988,6 +1003,37 @@ i {
 }
 
 
+/* ——————————————————————————————————————————————— PROCESS5 FIGURE */
+
+
+.process5_figure_01 {
+  width: 55vw;
+  cursor: pointer;
+}
+
+.process5_figure_01 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+.process5_figure_02 {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.process5_figure_02 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
 /* ——————————————————————————————————————————————— PROCESS6 FIGURE */
 
 
@@ -1024,6 +1070,51 @@ i {
 
 
 
+
+
+.process2_figure_01 {
+  width: 100vw;
+  cursor: pointer;
+}
+
+.process2_figure_01 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+/* ——————————————————————————————————————————————— Appendix FIGURE */
+
+
+
+.appendix_figure_01 {
+  width: 40vw;
+  cursor: pointer;
+}
+
+.appendix_figure_01 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .figure_01 {
   width: 50vw;
 }
@@ -1046,6 +1137,10 @@ i {
   height: 100%;
   width: 100%;
 }
+
+
+
+
 
 
 .date-content, .listing, .wordscredits, .header, .text_02 {
@@ -1465,6 +1560,25 @@ i {
   cursor: pointer;
 }
 
+
+
+.process2_N {
+  width: 50vw;
+  padding: 4vw 0vw 0vw 0vw;
+  height: 100vh;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.process2_O {
+  width: 50vw;
+  padding: 4vw 0vw 0vw 0vw;
+  height: 100vh;
+  background-color: black;
+  cursor: pointer;
+}
+
 /* ——————————————————————————————————————————————— Process2 Contents */
 
 
@@ -1660,7 +1774,7 @@ i {
 
 .process2_I_1_figure_06 {
   margin-top: -2vw;
-  margin-left: -5vw;
+  margin-right: 0vw;
 }
 
 .process2_I_1_figure_07 {
@@ -1697,6 +1811,12 @@ i {
 .process2_I_1_figure_13 {
   margin-top: -1vw;
   margin-left: 30vw;
+}
+
+
+.process2_I_1_figure_14 {
+  margin-top: -1vw;
+  margin-left: -6vw;
 }
 
 .process2_J_1 {
@@ -1738,6 +1858,45 @@ i {
   hyphens: manual;
 }
 
+
+
+.process2_N_1 {
+  margin-top: 0vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.process2_N_1 p {
+  display: inline;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  color: black;
+  text-align: center;
+  font-family: 'GazetteLTStd-Roman', serif;
+  justify-content: flex-end;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.process2_O_1 {
+  margin-top: 0vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.process2_O_1 p {
+  display: inline;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  color: white;
+  text-align: center;
+  font-family: 'GazetteLTStd-Roman', serif;
+  justify-content: flex-end;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
 
 
 
@@ -1826,6 +1985,8 @@ i {
 
 
 
+
+
 .process6_B_1 {
   margin-top: 0vw;
   margin-left: 3vw;
@@ -1834,10 +1995,16 @@ i {
 
 .process6_B_1 p {
   display: inline;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   line-height: 1.9vw;
   justify-content: flex-end;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
 }
+
+
+
 
 .process6_C_1 {
   margin-top: 0vw;
@@ -1863,10 +2030,13 @@ i {
 
 .process6_D_1 p {
   display: inline;
-  font-size: 1.6vw;
-  color: white;
+  font-size: 1.5vw;
   line-height: 1.9vw;
   justify-content: flex-end;
+  color: white;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
 }
 
 
