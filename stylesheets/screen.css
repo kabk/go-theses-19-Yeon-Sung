@@ -196,6 +196,10 @@ sup {
   background-color: yellow;
 }
 
+.index_bibliography:hover {
+  background-color: yellow;
+}
+
 
 .part li.selected {
   background-color: yellow;
@@ -604,6 +608,9 @@ i {
   text-align: center;
   min-width: 100%;
   font-family: 'GazetteLTStd-Italic', serif;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  min-height: 100vh;
 }
 
 
@@ -2064,6 +2071,20 @@ s
   justify-content: flex-end;
 }
 
+
+.process6_italic{
+  font-family: 'GazetteLTStd-Italic', serif;
+  font-size: 2vw;
+  line-height: 1.7vw;
+}
+
+
+.process6_italic_02{
+  font-family: 'GazetteLTStd-Italic', serif;
+  font-size: 2vw;
+  line-height: 1.7vw;
+  color: white;
+}
 
 /* ——————————————————————————————————————————————— Subchapter */
 
